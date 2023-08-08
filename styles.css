@@ -295,8 +295,6 @@ nav {
     line-height: 10px;
 }
 
-
-
 .third-cards-text {
     line-height: 10px;
     margin-bottom: 15px;
@@ -308,6 +306,138 @@ nav {
     position: absolute;
 }
 
+/* Section Find */
+
+.section-find {
+    margin-bottom: 100px;
+}
+
+.blur {
+    position: absolute;
+    z-index: -100;
+}
+
+.section-title {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 424px;
+    
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-title__label {
+    margin: 0;
+    height: 40px;
+
+    color: #F59E0B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-title__title {
+    margin-top: 0px;
+
+    color: #1B1C57;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section-title__button {
+    margin-top: 10px;
+    
+    width: 118px;
+    height: 46px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: #10B981;
+    border: none;
+    border-radius: 100px;
+}
+
+.section-title__button:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+}
+
+.section-sale {
+    margin: 0 auto;
+    display: flex;
+    width: 1180px;
+}
+
+.secondary-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 572px;
+    height: 148px;
+    margin-bottom: 30px;
+
+}
+
+.card__about {
+    margin-left: 20px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.person_retreat {
+    margin-top: 20px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+
+.person__name {
+    margin-left: 10px;
+
+    color: #3C4563;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-way {
+    color: #1B1C57;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-way_size {
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #626687;
+}
+
+.time__date {
+    margin-left: 10px;
+
+    color: #888B97;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* Footer */
 
 footer {
@@ -317,7 +447,7 @@ footer {
 } 
 
 .logo-footer {
-    margin-right: 600px;
+    margin-right: 500px;
     margin-bottom: 20px;
 }
 
@@ -328,13 +458,13 @@ footer {
 
 .bottom-ball {
     left: 1020px;
-    top: 700px;
+    top: 1600px;
     z-index: 1;
 }
 
 .right-ball {
     left: 1225px;
-    top: 635px;
+    top: 1535px;
     z-index: 0;
 }
 
@@ -355,8 +485,9 @@ footer {
     margin-top: 20px;
 }
 
-face:hover {
-    background-color: #1B1C57;
+.info {
+    margin-right: 70px;
+}
 }
 
 .info {
