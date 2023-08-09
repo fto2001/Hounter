@@ -595,7 +595,7 @@ footer {
     font-weight: 400;
 }
 
-.info__footer {
+.info__footer:hover {
     text-decoration: underline;
     color: #000;
     cursor: pointer; 
