@@ -16,11 +16,11 @@
             <div class="top-line">
                 <div class="logo">
                     <img class="logo__image" src="images/logo.png" alt="logo">
-                    <p class="logo__p">Hounter</p>
+                    <p class="logo__title">Hounter</p>
                 </div>
                 <nav class="nav">
-                    <button class="nav__button"><a href="#">About us</a></button>
-                    <button class="nav__button"><a href="#">Article</a></button>
+                    <button class="nav__button"><a class="nav__button-link" href="#">About us</a></button>
+                    <button class="nav__button"><a class="nav__button-link" href="#">Article</a></button>
                 </nav>
                 <div class="dop-link">
                     <a class="dop-link__a" href="#">Property</a>
@@ -30,23 +30,23 @@
             </div>
         <div class="basic-section">
             <div class="first-section">
-                <h1>Find The Place To <br>
-                    Live <span>Your Dreams</span> <br>
+                <h1 class="first-section__title">Find The Place To <br>
+                    Live <span class="first-section__frame">Your Dreams</span> <br>
                     Easily Here
                 </h1>
-                <p">Everything you need about finding your place to live will be <br>
+                <p class="first-section__label">Everything you need about finding your place to live will be <br>
                    here, where it will be easier for you </p>
                 <form method="post" class="search" enctype="text/plain">
                     <img class="search__img" src="images/mark.png" alt="mark">
                     <input type="text" class="search__p" placeholder="Search for the location you want!"></input>
                     <button class="search__button">Search <img src="images/right-arrow.png" alt="right-arrow"></button>
                 </form>
-                <p>Our Partnership</p>
+                <p class="first-section__label">Our Partnership</p>
                 <div class="logo-partnership">
-                    <img src="images/traveloka-logo.png" alt="traveloka-logo">
-                    <img src="images/tiket-logo.png" alt="tiket-logo">
-                    <img src="images/airbnb-logo.png" alt="airbnb-logo">
-                    <img src="images/trip-logo.png" alt="trip-logo">
+                    <img class="logo-partnership__image" src="images/traveloka-logo.png" alt="traveloka-logo">
+                    <img class="logo-partnership__image" src="images/tiket-logo.png" alt="tiket-logo">
+                    <img class="logo-partnership__image" src="images/airbnb-logo.png" alt="airbnb-logo">
+                    <img class="logo-partnership__image" src="images/trip-logo.png" alt="trip-logo">
                 </div>
             </div>
             <div class="second-section"> 
@@ -67,29 +67,126 @@
                             <img class="brown-hair" src="images/brown-hair.png" alt="brown-hair">
                         </div>
                         <div class="cards-text">
-                            <p class="cards__p">1K+ People</p>
-                            <span class="cards__span">Successfully Getting <br>
+                            <p class="cards__title">1K+ People</p>
+                            <span class="cards__lable">Successfully Getting <br>
                                 Home</span>
                         </div>
                     </div>
                     <div class="cards second-cards">
                         <img src="images/villa.png" alt="villa">
                         <div class="second-cards-text">
-                            <p class="cards__p">56 Houses</p>
-                            <span class="cards__span">Sold Monthly</span>
+                            <p class="cards__title">56 Houses</p>
+                            <span class="cards__lable">Sold Monthly</span>
                         </div>
                     </div>
                     <div class="cards third-cards">
-                        <img src="images/red-hair.png" alt="red-hair">                    
+                        <img class="third-cards__image" src="images/red-hair.png" alt="red-hair">                    
                         <div class="third-cards-text">
-                            <p class="cards__p">4</p>
-                            <span class="cards__span">P</span>
+                            <p class="cards__title">4</p>
+                            <span class="cards__lable">P</span>
                         </div>
                     </div>
                 </div>       
             </div>
         </div>
     </header>
+    <section class="slider">
+        <div class="slider-top">
+            <div class="recommendation">
+               <div class="recommendation-logo">
+                <img src="images/horizontal-orange-line.png" alt="horizontal orange line">
+                <h6 class="recommendation-logo__lable">Our Recommendation</h6>
+               </div>
+               <h1 class="recommendation__title">Featured House</h1>
+            </div>
+            <div class="nav-button">
+                <button class="nav-button__button nav-button__button_color-green button-home""><span class="material-symbols-outlined">home</span> House</span></button>
+                <button class="nav-button__button nav-button__button_color-red nav-button__button_small-size button-villa""><span class="material-symbols-outlined">villa</span> Villa</button>
+                <button class="nav-button__button nav-button__button_color-blue nav-button__button_big-size button-apartment""><span class="material-symbols-outlined">apartment</span> Apartment</button>
+            </div>
+            <div class="side-button">
+                <button class="side-button_button side-button__button_retreat prev-button"><</button>
+                <button class="side-button_button next-button">></button>
+            </div>
+        </div>
+        <div class="hero-cards">
+            <div class="hero-card">
+                <div class="card-image">
+                    <img src="images/villa-with-garage.png" alt="villa with garage">
+                    <button class="card-image__button card-image__button_background-red-color"><span class="material-symbols-outlined">local_fire_department</span> Popular</button>
+                </div>
+                <h3 class="hero-card__category lox">Roselands House</h3>
+                <h4 class="hero-card__price">$ 35.000.000</h4>
+                <div class="person">
+                    <img src="images/dianne-good-picture.png" alt="diana good picture">
+                    <div class="person-name">
+                        <h5 class="person-name__full-name">Dianne Russell</h5>
+                        <p class="person-name__place">Manchester, Kentucky</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-image">
+                    <img src="images/roof.png" alt="roof">
+                    <button class="card-image__button card-image__button_background-blue-color card-image__button_big-size"><span class="material-symbols-outlined">home</span> New House</button>
+                </div>
+                <h3 class="hero-card__category">Woodlandside</h3>
+                <h4 class="hero-card__price">$ 20.000.000</h4>
+                <div class="person">
+                    <img src="images/doctor.png" alt="doctor">
+                    <div class="person-name">
+                        <h5 class="person-name__full-name">Robert Fox</h5>
+                        <p class="person-name__place">Dr, San Jose, South Dakota</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-image">
+                    <img src="images/cottage.png" alt="cottage">
+                    <button class="card-image__button card-image__button_background-green-color card-image__button_medium-size"><span class="material-symbols-outlined">account_balance_wallet</span> Best Deals</button>
+                </div>
+                <h3 class="hero-card__category">The Old Lighthouse</h3>
+                <h4 class="hero-card__price">$ 44.000.000</h4>
+                <div class="person">
+                    <img src="images/ronald.png" alt="ronald">
+                    <div class="person-name">
+                        <h5 class="person-name__full-name">Ronald Richards</h5>
+                        <p class="person-name__place">Santa Ana, Illinois</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-image">
+                    <img src="images/villa-with-garage.png" alt="villa with garage">
+                    <button class="card-image__button card-image__button_background-red-color"><span class="material-symbols-outlined">local_fire_department</span> Popular</button>
+                </div>
+                <h3 class="hero-card__category">Roselands House</h3>
+                <h4 class="hero-card__price">$ 35.000.000</h4>
+                <div class="person">
+                    <img src="images/dianne-good-picture.png" alt="diana good picture">
+                    <div class="person-name">
+                        <h5 class="person-name__full-name">Dianne Russell</h5>
+                        <p class="person-name__place">Manchester, Kentucky</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-image">
+                    <img src="images/roof.png" alt="roof">
+                    <button class="card-image__button card-image__button_background-blue-color card-image__button_big-size"><span class="material-symbols-outlined">home</span> New House</button>
+                </div>
+                <h3 class="hero-card__category">Woodlandside</h3>
+                <h4 class="hero-card__price">$ 20.000.000</h4>
+                <div class="person">
+                    <img src="images/doctor.png" alt="doctor">
+                    <div class="person-name">
+                        <h5 class="person-name__full-name">Robert Fox</h5>
+                        <p class="person-name__place">Dr, San Jose, South Dakota</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <img class="blur" src="images/blur.png" alt="blur">
     <section class="section-find">
         <div class="section-title">
@@ -105,7 +202,7 @@
                 <div class="card">
                     <img src="images/living-room.png" alt="living room">
                     <div class="card__about">
-                        <div class="person">
+                        <div class="card-person">
                             <img src="images/diana.png" alt="diana woman">
                             <h5 class="person__name">Dianne Russell</h5>
                         </div>
@@ -120,7 +217,7 @@
                 <div class="card">
                     <img src="images/small-house.png" alt="small house">
                     <div class="card__about">
-                        <div class="person">
+                        <div class="card-person">
                             <img src="images/courtney.png" alt="courtney man">
                             <h5 class="person__name">Courtney Henry</h5>
                         </div>
@@ -135,7 +232,7 @@
                 <div class="card">
                     <img src="images/big-house.png" alt="big house">
                     <div class="card__about">
-                        <div class="person">
+                        <div class="card-person">
                             <img src="images/darlene.png" alt="darlene man">
                             <h5 class="person__name">Darlene Robertson</h5>
                         </div>
@@ -150,7 +247,7 @@
             </div>
             <div class="basic-card">
                 <img src="images/villa-big-size.png" alt="villa">
-                <div class="person person_retreat">
+                <div class="card-person person_retreat">
                     <img src="images/cameron.png" alt="cameron man">
                     <h5 class="person__name">Cameron Williamson</h5>
                 </div>
@@ -185,42 +282,44 @@
         <img class="subscribe-image__diana" src="images/diana-email.png" alt="diana">
         <img class="subscribe-image__courtney" src="images/courtney-email.png" alt="courtney">
     </section>
-    <footer>
+    <footer class="footer">
         <div>
             <div class="logo logo-footer">
                 <img class="logo__image" src="images/logo.png" alt="logo">
-                <p class="logo__p">Hounter</p>
+                <p class="logo__title">Hounter</p>
             </div>
-            <p class="footer__p">We provide information about properties such <br>
-                as houses, villas and apartments to help <br>
-                people find their dream home</p>
+            <p class="footer__title">We provide information about properties such <br>
+                as houses, villas and apartments to help people<br>
+                find their dream home</p>
             <div class="communication">
-                <img src="images/facebook.png" alt="facebook">
-                <img src="images/Twitter.png" alt="Twitter">
-                <img src="images/Instagram.png" alt="Instagram">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl"></i>
             </div>
         </div>
         <div class="info">
-            <span>Property</span>
-            <p class="footer__p info__footer">House</p>
-            <p class="footer__p info__footer">Apartment</p>
-            <p class="footer__p info__footer">Villa</p>
+            <span class="info__label">Property</span>
+            <p class="footer__title info__footer">House</p>
+            <p class="footer__title info__footer">Apartment</p>
+            <p class="footer__title info__footer">Villa</p>
         </div>
         <div class="info">
-            <span>Article</span>
-            <p class="footer__p info__footer">New Article</p>
-            <p class="footer__p info__footer">Popular Article</p>
-            <p class="footer__p info__footer">Most Read</p>
-            <p class="footer__p info__footer">Tips & Tricks</p>
+            <span class="info__label">Article</span>
+            <p class="footer__title info__footer">New Article</p>
+            <p class="footer__title info__footer">Popular Article</p>
+            <p class="footer__title info__footer">Most Read</p>
+            <p class="footer__title info__footer">Tips & Tricks</p>
         </div>
         <div class="info">
-            <span>Contact</span>
-            <p class="footer__p info__footer">2464 Royal Ln. Mesa, New Jersey 45463</p>
-            <p class="footer__p info__footer">(671) 555-0110</p>
-            <p class="footer__p info__footer">info@hounter.com</p>
+            <span class="info__label">Contact</span>
+            <p class="footer__title info__footer">2464 Royal Ln. Mesa, New Jersey 45463</p>
+            <p class="footer__title info__footer">(671) 555-0110</p>
+            <p class="footer__title info__footer">info@hounter.com</p>
         </div>
         <img class="footer__img bottom-ball" src="images/bottom-ball.png" alt="bottom-ball">
         <img class="footer__img right-ball"src="images/right-ball.png" alt="right-ball">
     </footer>
+    <script src="https://kit.fontawesome.com/0d8cc36a0e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
