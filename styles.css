@@ -383,8 +383,6 @@ table {
 .slider {
     margin-bottom: 100px;
     margin-left: 190px;
-
-    overflow-x: scroll;
 }
 
 .slider-top {
@@ -510,7 +508,7 @@ table {
 
 .hero-cards {
     display: flex;
-    
+    overflow-x: scroll; 
 }
 
 .hero-card {
