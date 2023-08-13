@@ -508,7 +508,7 @@ table {
 
 .hero-cards {
     display: flex;
-    overflow-x: scroll; 
+    overflow-x: scroll;
 }
 
 .hero-card {
@@ -785,7 +785,7 @@ table {
     background-color: #FFFFFF;
 }
 
-.subscribe-search__email {
+   .subscribe-search__email {
     margin-left: 10px;
     margin-right: 10px;
 
@@ -948,3 +948,611 @@ table {
     z-index: 100;
 }
 
+/* Large Devices, Wide Screens */
+
+@media screen and (min-width: 1281px) and (max-width: 1439px) {
+
+    .top-line {
+        padding: 2% 0%;
+    }
+
+    .basic-section {
+        padding: 0% 0%;
+    }
+
+    .logo {
+        margin-right: 500px;
+    }
+
+    .second-section {
+        margin-left: 100px;
+    }
+
+    .slider {
+        margin-left: 100px;
+    }
+
+    .footer {
+        padding: 0% 0%;
+    }
+
+    .nav-button {
+        margin: 0 60px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .top-line {
+        padding: 2% 0%;
+    }
+
+    .logo {
+        margin-right: 500px;
+    }
+
+    .basic-section {
+        padding: 0% 0%;
+    }
+
+    .second-section {
+        margin-left: 50px;
+    }
+
+    .slider {
+        margin-left: 100px;
+    }
+
+    .nav-button {
+        margin: 0 70px;
+    }
+
+    .footer {
+        padding: 0% 0%;
+    }
+
+    .info {
+        margin-right: 50px;
+    }
+
+    .subscribe {
+        margin: 100px 30px;
+    }
+
+    .section-title {
+        margin: 0 auto;
+    }
+
+    .section-sale {
+        margin: 30px auto;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+
+    .logo {
+        margin-right: 360px;
+    }
+
+    .logo__title {
+        font-size: 14px;
+    }
+
+    .nav {
+        width: 185px;
+    }
+
+    .nav__button {
+        margin-right: 10px;
+
+        width: 80px;
+    }
+
+    .nav__button-link {
+        font-size: 13px;
+    }
+
+    .dop-link {
+        width: 80px;
+    }
+
+    .dop-link__a {
+        font-size: 12px;
+    }
+
+    .header__button {
+        margin-left: 30px;
+
+        width: 100px;
+    }
+
+    .first-section__title {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .first-section {
+        margin-top: 120px;
+    }
+
+    .first-section__label {
+        font-size: 13px;
+    }
+
+    .search {
+        width: 400px;
+    }
+
+    .search__img {
+        margin-left: 10px;
+    }
+
+    .search__p {
+        margin-left: 10px;
+        margin-right: 40px;
+
+        width: 200px;
+
+        font-size: 12px;
+    }
+
+    .logo-partnership__image {
+        margin-right: 10px;
+    }
+
+    .recommendation__title {
+        font-size: 28px;
+    }
+
+    .recommendation {
+        width: 320px;
+    }
+
+    .nav-button {
+        margin: 0 30px;
+    }
+
+    .nav-button__button {
+        width: 110px;
+
+        font-size: 16px;
+    }
+
+    .nav-button__button_small-size {
+        width: 110px;
+        margin: 0 20px;
+    }
+    
+    .nav-button__button_big-size {
+        width: 130px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .section-sale {
+        display: block;
+    }
+
+    .secondary-card {
+       margin: 0 250px;
+
+       margin-right: 0;
+    }
+
+    .basic-card {
+        margin: 0 250px;
+
+        width: 560px;
+    }
+
+    .section-sale {
+        margin: 0;
+
+        width: 100%;
+    }
+
+    .section-title  {
+        margin-bottom: 50px;
+    }
+
+    .subscribe {
+        margin: 100px 0;
+    
+        width: 800px;
+        height: 312px;
+    }
+
+    .subscribe__image {
+        width: 100%;
+    }
+
+    .subscribe-title {
+        position: absolute;
+        margin: 80px 300px 0;
+    }
+    
+    .subscribe-image__chair {
+        position: relative;
+        left: 44px;
+        top: 28px;
+    }
+    
+    .subscribe-image__guy {
+        position: relative;
+        top: 50px;
+        right: 230px
+    }
+    
+    .subscribe-image__mini-chair {
+        position: relative;
+        top: 147px;
+        left: 820px
+    }
+    
+    .subscribe-image__castle {
+        position: relative;
+        top: 128px;
+        left: 35px
+    }
+    
+    .subscribe-image__window {
+        position: relative;
+        top: 10px;
+        left: 600px
+    }
+    
+    .subscribe-image__beauty-girl {
+        position: relative;
+        top: 70px;
+        left: 600px
+    }
+    
+    .subscribe-image__diana {
+        position: relative;
+        top: 150px;
+        right: 475px;
+    }
+    
+    .subscribe-image__courtney {
+        position: relative;
+        top: 122px;
+        left: 200px;
+    }
+
+    .footer__title {
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        margin-right: 300px;
+    }
+
+    .info {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .top-line {
+        margin-left: 5px;
+    }
+
+    .first-section {
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-right: 100px;
+    }
+
+    .nav {
+        width: 205px;
+    }
+
+    .nav__button {
+        width: 80px;
+
+        background-color: #10B981;
+        border: none;
+    }
+
+    .nav__button:hover {
+        background-color: lightgreen;
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav__button-link:hover {
+        color: black;
+    }
+
+    .dop-link {
+        width: 80px;
+
+        background-color: #10B981;
+        border: none;
+    }
+
+    .dop-link:hover {
+        background-color: lightgreen;
+        text-decoration: none;
+    }
+
+    .dop-link__a:hover {
+        color: black;
+    }
+
+    .slider {
+        margin-left: 5px;
+    }
+
+    .recommendation {
+        width: 250px;
+    }
+
+    .recommendation__title {
+        font-size: 25px;
+    }
+
+    .nav-button {
+        margin: 0 20px;
+    }
+
+    .nav-button__button {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    .nav-button__button_big-size {
+        width: 120px;
+    }
+
+    .nav-button__button_small-size {
+        margin: 0 10px;
+    }
+
+    .side-button {
+        width: 100px;
+    }
+
+    .side-button_button {
+        width: 45px;
+        font-size: 20px;
+    }
+
+    .side-button__button_retreat {
+        margin-right: 5px;
+    }
+
+    .section-sale {
+        margin: 50px 100px 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe {
+        margin: 100px 0;
+    
+        width: 800px;
+        height: 312px;
+    }
+
+    .subscribe__image {
+        width: 100%;
+    }
+
+    .subscribe-image__beauty-girl {
+        display: none;
+    }
+
+    .subscribe-image__castle {
+        display: none;
+    }
+
+    .subscribe-image__courtney {
+        display: none;
+    }
+
+    .subscribe-image__diana {
+        display: none;
+    }
+
+    .subscribe-image__guy {
+        display: none;
+    }
+
+    .subscribe-image__mini-chair {
+        display: none;
+    }
+
+    .subscribe-title {
+        position: absolute;
+        margin: 20px 200px 0;
+    
+        text-align: center;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subscribe-search {
+        width: 350px;
+    }
+
+    .subscribe-search__button {
+        width: 100px;
+        
+        font-size: 11px;
+    }
+    
+    .subscribe-search__email {
+        margin-left: 10px;
+
+        width: 200px;
+
+        border: none;
+        outline: none;
+    }
+
+    .subscribe-image__window {
+        position: relative;
+        left: 580px
+    }
+
+    .footer {
+        margin-left: 5px;
+    }
+
+    .footer__title {
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .second-section {
+        display: none;
+    }
+
+    .first-section {
+        margin: 100px auto;
+    }
+
+    .logo {
+        margin-right: 20px;
+    }
+
+    .header__button {
+        margin-left: 10px;
+    }
+
+    .recommendation {
+        display: none;
+    }
+    
+    .section-sale {
+        margin-left: 10px;
+    }
+
+    .subscribe-image__chair {
+        display: none;
+    }
+
+    .subscribe-image__window {
+        display: none;
+    }
+
+    .subscribe-title {
+        position: relative;
+        right: 60px;
+    }
+
+    .subscribe {
+        margin-bottom: 0px ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        width: 80px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__button {
+        margin-top: 10px;
+    }
+
+    .dop-link {
+        margin: 0 0 32px 5px;
+    }
+
+    .header__button {
+        position: relative;
+        top: 30px;
+        right: 120px;
+
+        height: 40px;
+    }
+
+    .first-section__title {
+        font-size: 35px;
+    }
+
+    .first-section__label {
+        font-size: 12px;
+    }
+
+    .logo-partnership__image {
+        margin-right: 2px;
+    } 
+
+    .search {
+        width: 350px;
+    }
+
+    .search__p {
+        margin-left: 5px;
+        margin-right: 5px;
+
+        width: 180px;
+
+        font-size: 12px;
+    }
+
+    .slider-top {
+        display: flex;
+        flex-direction: column;
+
+        width: 350px;
+    }
+
+    .nav-button__button {
+        margin-bottom: 10px;
+    }
+
+    .card__about {
+        display: none;
+    }
+
+    .card {
+        margin-left: 80px;
+    }
+
+    .card-way_size {
+        font-size: 16px;
+    }
+
+    .label {
+        font-size: 8.5px;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .footer__title {
+        font-size: 14px;
+    }
+
+    .fa-brands {
+        margin: 30px auto;
+    }
+}
