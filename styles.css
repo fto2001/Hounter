@@ -455,7 +455,6 @@ table {
     border: 1px solid lightgray;
     background-color: #FFFFFF;
     transition: all ease 1.5s;
-    cursor: pointer;
 }
 
 .nav-button__button_small-size {
@@ -505,7 +504,6 @@ table {
     border: none;
 
     transition: all ease 1.5s;
-    cursor: pointer;
 }
 
 .side-button_button:hover {
@@ -520,6 +518,10 @@ table {
 .hero-cards {
     display: flex;
     overflow-x: scroll;
+}
+
+.hero-cards::-webkit-scrollbar {
+    display: none;
 }
 
 .hero-card {
@@ -1124,6 +1126,7 @@ table {
     }
 }
 
+
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
 
     .logo {
@@ -1445,10 +1448,12 @@ table {
     }
 
     .slider {
-        margin-left: 5px;
+        margin-left: -25px;
     }
 
     .recommendation {
+        margin-left: 40px;
+
         width: 250px;
     }
 
@@ -1595,7 +1600,9 @@ table {
     }
 
     .first-section {
-        margin: 100px auto;
+        margin: 270px auto 30px;
+
+        width: 100%;
     }
 
     .logo {
@@ -1659,6 +1666,9 @@ table {
 
     .top-line {
         margin-left: 0;
+
+        display: flex;
+        flex-direction: column;
     }
 
     .section-sale {
@@ -1670,13 +1680,13 @@ table {
     }
 
     .dop-link {
-        margin: 0 0 35px 5px;
+        margin: 10px 0 10px 5px;
     }
 
     .header__button {
         position: relative;
-        top: 30px;
-        right: 120px;
+        top: 0px;
+        right: 0px;
 
         height: 45px;
     }
@@ -1710,7 +1720,7 @@ table {
         display: flex;
         flex-direction: column;
 
-        width: 350px;
+        width: auto;
     }
 
     .nav-button__button {
@@ -1754,6 +1764,27 @@ table {
     .footer__title {
         font-size: 14px;
     }
+
+    .fa-brands {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 320px)  {
+    .logo-partnership {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .logo-partnership__image {
+        margin-right: 25px;
+    }
+
+    .search {
+        width: 100%;
+    }
+}
 
     .fa-brands {
         margin: 30px auto;
