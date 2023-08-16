@@ -455,6 +455,7 @@ table {
     border: 1px solid lightgray;
     background-color: #FFFFFF;
     transition: all ease 1.5s;
+    cursor: pointer;
 }
 
 .nav-button__button_small-size {
@@ -504,6 +505,7 @@ table {
     border: none;
 
     transition: all ease 1.5s;
+    cursor: pointer;
 }
 
 .side-button_button:hover {
